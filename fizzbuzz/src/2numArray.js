@@ -1,7 +1,9 @@
 const numArray = (numList, num) => {
     
-    if (numList%num == 0) {
-    return (numList.map(div()))
+    while (i<numList.length){
+        if (numList%num == 0) {
+        return (numList.map(div()))
+        }
     }
 
     function div(){

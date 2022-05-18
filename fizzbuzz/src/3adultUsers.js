@@ -1,7 +1,7 @@
 const adultUsers = (users) => {
     let arrayOlderOrEqual18 = []
 
-    for (var i=0; i<users.length; i++) {
+    for (let i=0; i<users.length; i++) {
         if (users[i].age >= 18){
             arrayOlderOrEqual18.push(users[i])
         }
